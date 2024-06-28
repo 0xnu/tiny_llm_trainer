@@ -73,10 +73,10 @@ This project is licensed under the [Apache License 2.0](./LICENSE).
   author       = {Oketunji, A.F.},
   title        = {Tiny LLM Trainer},
   year         = 2024,
-  version      = {0.0.1},
+  version      = {0.0.2},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.12549872},
-  url          = {https://doi.org/10.5281/zenodo.12549872}
+  doi          = {10.5281/zenodo.12579634},
+  url          = {https://doi.org/10.5281/zenodo.12579634}
 }
 ```
 
