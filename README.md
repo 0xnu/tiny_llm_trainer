@@ -14,6 +14,7 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 - Python 3.7+
 - PyTorch
 - NumPy
+- Pillow
 
 ### Project Structure
 
@@ -101,10 +102,10 @@ This project is licensed under the [Apache License 2.0](./LICENSE).
   author       = {Oketunji, A.F.},
   title        = {Tiny LLM Trainer},
   year         = 2024,
-  version      = {0.0.2},
+  version      = {0.0.4},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.12579634},
-  url          = {https://doi.org/10.5281/zenodo.12579634}
+  doi          = {10.5281/zenodo.12584396},
+  url          = {https://doi.org/10.5281/zenodo.12584396}
 }
 ```
 
