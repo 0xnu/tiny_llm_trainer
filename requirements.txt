@@ -1,4 +1,7 @@
 mwparserfromhell
 numpy
+pillow
 requests
+tqdm
 torch
+torchvision
