@@ -89,7 +89,7 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 + [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044)
 + [From Images to Textual Prompts: Zero-shot VQA with Frozen Large Language Models](https://arxiv.org/abs/2212.10846)
 + [Enhancing Image Caption Generation Using Reinforcement Learning with Human Feedback](https://arxiv.org/abs/2403.06735)
-
++ [VQA: Visual Question Answering](https://arxiv.org/abs/1505.00468)
 
 ### License
 
