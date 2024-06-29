@@ -25,7 +25,8 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 ├── wikipedia_data.py
 ├── tiny_llm_trainer.py
 ├── flickr_data.py
-└── tiny_llm_trainer_vqa.py
+├── tiny_llm_trainer_vqa.py
+└── cvc_data.py
 ```
 
 ### Files
@@ -36,6 +37,7 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 - `tiny_llm_trainer.py`: The main script for training the model.
 - `flickr_data.py`: Script for downloading and preprocessing Flickr image data.
 - `tiny_llm_trainer_vqa.py`: Script for training the model on Visual Question Answering (VQA) tasks using Flickr data.
+- `cvc_data.py`: Script for downloading and preprocessing [Common Voice Corpus 1](https://commonvoice.mozilla.org/en/datasets) data.
 
 ### Usage
 
@@ -83,6 +85,20 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
    python3 tiny_llm_trainer_vqa.py
    ```
 
+### Text-to-Speech (TTS)
+
+1. Prepare Data:
+
+   ```sh
+   python3 cvc_data.py
+   ```
+
+2. Train TTS:
+
+   ```sh
+   ..........😎
+   ```
+
 ### References
 
 + [Large Language Model (LLM) AI text generation detection based on transformer deep learning algorithm](https://arxiv.org/abs/2405.06652)
@@ -90,6 +106,8 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 + [From Images to Textual Prompts: Zero-shot VQA with Frozen Large Language Models](https://arxiv.org/abs/2212.10846)
 + [Enhancing Image Caption Generation Using Reinforcement Learning with Human Feedback](https://arxiv.org/abs/2403.06735)
 + [VQA: Visual Question Answering](https://arxiv.org/abs/1505.00468)
++ [Meta Learning Text-to-Speech Synthesis in over 7000 Languages](https://arxiv.org/abs/2406.06403)
++ [Text to Speech Synthesis](https://arxiv.org/abs/2401.13891)
 
 ### License
 
@@ -102,10 +120,10 @@ This project is licensed under the [Apache License 2.0](./LICENSE).
   author       = {Oketunji, A.F.},
   title        = {Tiny LLM Trainer},
   year         = 2024,
-  version      = {0.0.4},
+  version      = {0.0.5},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.12584396},
-  url          = {https://doi.org/10.5281/zenodo.12584396}
+  doi          = {10.5281/zenodo.12592538},
+  url          = {https://doi.org/10.5281/zenodo.12592538}
 }
 ```
 
