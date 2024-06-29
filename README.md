@@ -26,7 +26,8 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 ├── tiny_llm_trainer.py
 ├── flickr_data.py
 ├── tiny_llm_trainer_vqa.py
-└── cvc_data.py
+├── cvc_data.py
+└── tiny_llm_trainer_cvc.py
 ```
 
 ### Files
@@ -38,6 +39,7 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 - `flickr_data.py`: Script for downloading and preprocessing Flickr image data.
 - `tiny_llm_trainer_vqa.py`: Script for training the model on Visual Question Answering (VQA) tasks using Flickr data.
 - `cvc_data.py`: Script for downloading and preprocessing [Common Voice Corpus 1](https://commonvoice.mozilla.org/en/datasets) data.
+- `tiny_llm_trainer_cvc.py`: Script for training a TTS model using Common Voice Corpus 1 data.
 
 ### Usage
 
@@ -96,7 +98,7 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 2. Train TTS:
 
    ```sh
-   ..........😎
+   tiny_llm_trainer_cvc.py
    ```
 
 ### References
@@ -120,10 +122,10 @@ This project is licensed under the [Apache License 2.0](./LICENSE).
   author       = {Oketunji, A.F.},
   title        = {Tiny LLM Trainer},
   year         = 2024,
-  version      = {0.0.5},
+  version      = {0.0.6},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.12592538},
-  url          = {https://doi.org/10.5281/zenodo.12592538}
+  doi          = {10.5281/zenodo.12593929},
+  url          = {https://doi.org/10.5281/zenodo.12593929}
 }
 ```
 
