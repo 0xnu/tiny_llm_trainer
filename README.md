@@ -36,7 +36,7 @@ The experiment implements a tiny language model trainer using [PyTorch](https://
 - `models/`: Directory where trained models are saved.
 - `wikipedia_data.py`: Script for downloading and preprocessing [Wikipedia](https://www.wikipedia.org) data.
 - `tiny_llm_trainer.py`: The main script for training the model.
-- `flickr_data.py`: Script for downloading and preprocessing Flickr image data.
+- `flickr_data.py`: Script for downloading and preprocessing [Flickr](https://flickr.com) image data.
 - `tiny_llm_trainer_vqa.py`: Script for training the model on Visual Question Answering (VQA) tasks using Flickr data.
 - `cvc_data.py`: Script for downloading and preprocessing [Common Voice Corpus 1](https://commonvoice.mozilla.org/en/datasets) data.
 - `tiny_llm_trainer_cvc.py`: Script for training a TTS model using Common Voice Corpus 1 data.
